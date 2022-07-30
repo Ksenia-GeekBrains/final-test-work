@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        string[] verse = new string {"Белеет парус одинокой В тумане моря голубом!.. Что ищет он в стране далекой? Что кинул он в краю родном?.. Играют волны - ветер свищет, И мачта гнется и скрыпит. Увы! он счастия не ищет И не от счастия бежит! Под ним струя светлей лазури, Над ним луч солнца золотой. А он, мятежный, просит бури, Как будто в бурях есть покой!"};}
+}
