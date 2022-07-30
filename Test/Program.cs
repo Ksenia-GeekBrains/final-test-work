@@ -6,23 +6,23 @@
     return Text;
 }
 
-string MainTask(string []array)
+string MainTask(string []InputArray)
 {
     int count = 0;
     int index = 0;
-    string[] TempText = new string[0];
+    string[] InputText = new string[0];
 
-    while (count < array.Length)
+    while (count < InputArray.Length)
     {
-        if (array[count].Length <= 3)
+        if (InputArray[count].Length <= 3)
         {
-            Array.Resize(ref TempText, TempText.Length + 1);
-            TempText[index] = array[count];
+            Array.Resize(ref InputText, InputText.Length + 1);
+            InputText[index] = InputArray[count];
             index++;
         }
         count++;
     }
-string FinalText = String.Join(",", TempText);
+string FinalText = String.Join(",", InputText);
 return FinalText;
 }
 
