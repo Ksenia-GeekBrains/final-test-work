@@ -3,4 +3,4 @@ string [] ReadText = new string [] {newpath};
 
     /* Split(' ', ',', ':', ';' } , StringSplitOptions.RemoveEmptyEntries; */
 
-Console.WriteLine(ReadText);
+Console.WriteLine(ReadText+"");
